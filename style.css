@@ -1,0 +1,161 @@
+/* Begining Of the Header section */
+
+body{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.header{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+a{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+a img{
+    margin-top: 15px;
+}
+
+a h4{
+    color: rgb(68, 68, 68);
+    font-weight: normal;
+}
+
+a h4:hover{
+    text-decoration: underline;
+
+}
+.profil{
+    border-radius: 50%;
+}
+
+.googleApp{
+    color: black;
+}
+
+.googleApp:hover{
+    color: dimgray;
+}
+
+
+
+/* Begining of the the Body Section*/
+
+.corps{
+    margin: auto;
+    padding-top: 250px;
+
+}
+.paragraphe{
+    padding-left: 35%;
+    padding-top: 50px;
+}
+.logoGoogle{
+    text-align: center;
+    margin: auto;
+    height: 40%;
+    width: 50%;
+    margin-left: 38%;
+}
+
+.buttons{
+    height: 30px;
+    width: 100%;
+}
+.paragraphe{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.inputField img{
+    position: relative;
+    left: 12.5%;
+    float: right;
+    margin-top: 30px;
+    left: 100;
+    z-index: 2;
+}
+.buttons button{
+    margin-top: 50px;
+    margin-left: 15px;
+    height: 40px;
+    width: 200px;
+    position: relative;
+    top: 20px;
+    left: 16%;
+}
+.inputFile{
+    position: absolute;
+    border-radius: 20px 20px 20px 20px;
+    width: 600px;
+    margin-top: 20px;
+    height: 40px;
+    z-index: 1;
+    text-align: center;
+}
+
+.inputFile:hover{
+    
+    box-shadow: rgb(224, 222, 222) 5px 4px 4px;
+}
+
+
+
+.buttons button:hover{
+    box-shadow: rgb(224, 222, 222) 5px 4px 4px;
+}
+
+
+/* Class Footer */
+
+footer{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+footer section{
+    display: inline;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+footer ul{
+    list-style-type: none;
+}
+
+footer ul a {
+    color: #5f6368;
+}
+
+footer ul li {
+    font-size: 0.8em;
+}
+footer ul a:hover{
+    text-decoration: underline;
+}
+
+.seccondList{
+    margin-top: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
