@@ -121,7 +121,7 @@ a h4:hover{
 /* Class Footer */
 
 footer{
-    position: fixed;
+    position: absolute;
     bottom: 0;
     display: flex;
     background-color: #f2f2f2;
