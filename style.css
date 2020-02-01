@@ -1,12 +1,14 @@
 /* Begining Of the Header section */
 
 body{
+    width: auto;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
 
 }
+
 .header{
     display: flex;
     position: absolute;
@@ -62,41 +64,40 @@ a h4:hover{
     margin: auto;
     height: 40%;
     width: 50%;
-    margin-left: 38%;
+    margin-left: 30%;
 }
 
 .buttons{
     height: 30px;
     width: 100%;
 }
-.paragraphe{
-    margin-top: 50px;
-    text-align: center;
-}
 
 .buttons{
     text-align: center;
 }
 
-.inputField img{
+.inputField{
+    display: flex;
+    margin-bottom:40px;
+    width: 100%;
+    height: 100px;
     position: relative;
-    left: 12.5%;
-    float: right;
+}
+
+.inputField img{
+    position: absolute;
+    right: 30px;
     margin-top: 30px;
-    left: 100;
     z-index: 2;
 }
 .buttons button{
-    margin-top: 50px;
     margin-left: 15px;
     height: 40px;
     width: 200px;
-    position: relative;
-    top: 20px;
-    left: 16%;
+
 }
 .inputFile{
-    position: absolute;
+    position: relative;
     border-radius: 20px 20px 20px 20px;
     width: 600px;
     margin-top: 20px;
@@ -158,4 +159,168 @@ footer ul a:hover{
     position: absolute;
     top: 0;
     right: 0;
+}
+
+
+@media all and (max-width:1024px)
+{
+
+    .logoGoogle{
+        text-align: center;
+        margin: auto;
+        height: 40%;
+        width: 50%;
+        margin-left: 20%;
+    }
+
+    .inputFile{
+        position: relative;
+        border-radius: 20px 20px 20px 20px;
+        width: 400px;
+        margin-top: 20px;
+        height: 40px;
+        z-index: 1;
+        text-align: center;
+    }
+
+    .inputField{
+        margin-bottom:40px;
+        width: 90%;
+        height: 100px;
+        position: relative;
+    }
+    
+    .inputField img{
+        position: absolute;
+        right: 70px;
+        margin-top: 30px;
+        z-index: 2;
+    }
+    .buttons button{
+        margin-left: 15px;
+        height: 40px;
+        width: 150px;
+    
+    }
+
+    .buttons{
+        position: relative;
+        right: 48px;
+        text-align: center;
+    }
+
+    footer ul{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    @media all and (max-width:595px){
+
+        body{
+            width: auto;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            flex-wrap: wrap;
+        
+        }
+        .logoGoogle{
+            text-align: center;
+            height: 40%;
+            width: 40%;
+            margin-right: 25%;
+        }
+    
+        .inputFile{
+            position: relative;
+            border-radius: 20px 20px 20px 20px;
+            width: 300px;
+            margin-top: 20px;
+            height: 40px;
+            z-index: 1;
+            text-align: center;
+        }
+    
+        .inputField{
+            display: flex;
+            margin-bottom:40px;
+            width: 80%;
+            height: 100px;
+            position: relative;
+        }
+        
+        .inputField img{
+            position: relative;
+            right: -1500%;
+            margin-top: 30px;
+            z-index: 2;
+        }
+        .buttons button{
+            margin-left: 15px;
+            height: 40px;
+            width: 100px;
+        
+        }
+    
+        .buttons{
+            position: relative;
+            text-align: center;
+        }
+    }
+
+    @media all and (max-width:430px) {
+        body{
+            display: flex;
+            flex-direction: row;
+        
+        }
+        .logoGoogle{
+            text-align: center;
+            margin: auto;
+            height: 40%;
+            width: 40%;
+            margin-left: 25%;
+        }
+    
+        .inputFile{
+            margin: auto;
+            position: absolute;
+            border-radius: 20px 20px 20px 20px;
+            width: 200px;
+            margin-top: 20px;
+            height: 40px;
+            z-index: 1;
+            text-align: center;
+        }
+    
+        .inputField{
+            margin: auto;
+            display: flex;
+            margin-bottom:40px;
+            width: 70%;
+            height: 100px;
+            position: relative;
+        }
+        
+        .inputField img{
+            margin: auto;
+            position: relative;
+            left: 800%;
+            margin-top: 30px;
+            z-index: 2;
+        }
+        .buttons button{
+            margin-left: 15px;
+            height: 40px;
+            width: 100px;
+        
+        }
+    
+        .buttons{
+            position: relative;
+            right: 5%;
+            text-align: center;
+        }
+    }
 }
